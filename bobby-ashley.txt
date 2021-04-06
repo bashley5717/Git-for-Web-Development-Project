@@ -121,7 +121,7 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     rm "file"  you dont want to delete something accidentally
     
     34. Why should I use version control? 
-    ?
+    because it lets you access things you might not be able to using the gui
 
     35. How often should I commit to github?
     around every 20 minutes
@@ -130,8 +130,16 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     git push -u origin branch-name
     
     37. Walk me through Lambda's git flow. 
-    ?
-
+    1. fork the document
+    2you need to clone using the clone or download button
+    3.in the git console use the cd command to go to the location you want it cloned
+    4use git clone and link the copied link
+    5cd into the newely created repo using 'cd'
+    6 use git checkout -b (first-name)
+    7 now you can work on it and push as you need to
+    8 git add . will add changes to the repo
+    9 git commit -m will let you add a message letting people know where you left off or what you did
+    10 git push -u origin branch-name, will be the final thing you enter when youre done.
 
 Stretch Questions
 
